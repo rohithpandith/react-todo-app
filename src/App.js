@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Rohit's Todo List for CICD</h1>
+        <h1>Rohit's Todo List</h1>
       </header>
       <Form todos={todos} setTodos={setTodos} todoNameRef={todoNameRef} setStatus={setStatus}></Form>
       <TodoList filteredTodos={filteredTodos} todos={todos} setTodos={setTodos}></TodoList>
